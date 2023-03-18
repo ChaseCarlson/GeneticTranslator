@@ -12,8 +12,4 @@ class AminoAcidTranslatorTest {
 		assertEquals(AminoAcidTranslator.translateCodon('U', 'A', 'G'), AminoAcid.STOP);
 		assertEquals(AminoAcidTranslator.translateCodon('U', 'C', 'U'), AminoAcid.SER);
 	}
-
-	@Test
-	void testTranslateCodon() {
-	}
 }

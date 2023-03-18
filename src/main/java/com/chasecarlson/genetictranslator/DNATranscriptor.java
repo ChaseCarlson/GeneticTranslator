@@ -4,7 +4,7 @@ public class DNATranscriptor {
 	public static String transcribeDNAString(String dna)
 	{
 		String transcribed = "";
-		for (char dnaChar : dna.toCharArray())
+		for (char dnaChar : dna.strip().toCharArray())
 		{
 			transcribed += transcribeDNAChar(dnaChar);
 		}
